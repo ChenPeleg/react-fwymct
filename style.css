@@ -1,14 +1,21 @@
 h1, p {
   font-family: Lato;
+   margin: 0px;
+  padding: 0px;
 }
 html {
   height: 100%;
 }
 body {
   min-height: 100%;
+  margin: 0px;
+  padding: 0px;
 }
 #root{
-  position: relative;
-  min-height: 100%
+  position: fixed;
+  height: 100%;
+  width: 100%;
+ margin: 0px;
+  padding: 0px;
 }
  
