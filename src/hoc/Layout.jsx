@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-
+import "./Layout.scss"
 class Layout extends Component   {
 render () {
-  return (<div> Hello this is my App</div>)
+  return (<div className ="layout"> {this.props.children}</div>)
 }
 }
 export default Layout
