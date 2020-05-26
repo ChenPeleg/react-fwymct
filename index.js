@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { render } from 'react-dom';
 import Hello from './Hello';
-import Layout from "./src/hoc/layout"
+import Layout from "./src/hoc/Layout"
 import './style.css';
 
 class App extends Component {
